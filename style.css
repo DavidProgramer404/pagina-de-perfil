@@ -1,0 +1,328 @@
+/* Header de la navegacion */
+*{
+    padding: opx;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    margin: 0;
+    font-size: 24px; /* Ajustado el tamaño del texto del título */
+    
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a.active {
+    color: white;
+    font-weight:bolder;
+    
+}
+
+.btnCerrarSesion {
+    background-color: #17A2B8;
+    color: white;
+    border:none;
+    padding: 3px 3px;
+    cursor: pointer;
+    font-size: 11px;
+    border-color: black;
+    box-shadow: 5px 5px black;
+    border: 2px solid black;
+    
+}
+
+.btnCerrarSesion:hover {
+    background-color: #ccb7b2; 
+}
+
+/* '''''''Targeta de usuario''''''''''' */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Island Moments', cursive;
+}
+.encabezado{
+    background-color: #17A2B8;
+    height: 140px;
+    position: relative;
+    height: 100px;
+    width: 500px;
+
+    
+
+}
+.usuario{
+    position: absolute;
+    width: 85px;
+    top: 50px;
+    left: 20px;
+    border-radius: 50%;
+    padding: 2px;
+    border-color: rgb(230, 222, 222);
+    border-style: solid;
+    border-width: 2px;
+}
+.cuerpo{
+    padding: 30px;
+    border: 2px solid grey;
+    height: 200px;
+    width: 500px;
+}
+
+.iconos{
+    width: 13px;
+    margin-right: 10px;
+}
+.ubicacion{
+    margin-bottom: 10px;
+}
+.edicion{
+    margin-top: 10px;
+}
+
+.tarjeta{
+    padding: 15px;
+}
+
+/* Targeta de usuario numero2 */
+
+
+.encabezado2{
+    background-color: #333333;
+    height: 140px;
+    position: relative;
+    height: 50px;
+    width: 500px;
+    padding: 10px;
+    color: white;
+
+    
+
+}
+.usuario1{
+    position: relative;
+    width: 85px;
+    top: 50px;
+    left: 20px;
+    border-radius: 50%;
+    padding: 2px;
+    border-color: rgb(230, 222, 222);
+    border-style: solid;
+    border-width: 2px;
+}
+.cuerpo2{
+    padding: 30px;
+    border: 2px solid grey;
+    height: 150px;
+    width: 500px;
+}
+
+.numero2{
+    width: 13px;
+    margin-right: 10px;
+}
+.usuario1{
+    margin-bottom: 10px;
+}
+.edicion{
+    margin-top: 10px;
+}
+
+.tarjeta2{
+    padding: 15px;
+}
+
+/* targeta numero 3 */
+
+
+.num2 {
+    height: 21px;
+    width: 28px;
+    border-radius: 88%;
+    margin-top: 1px;
+    margin-left: 0.5px;
+    margin-right: 2px;
+    order: none;
+    background-color: #CCCCCC;
+}
+
+.encabezado3 {
+    background-color: #333333;
+    position: relative;
+    height: 50px;
+    width: 220px;
+    padding: 10px;
+    color: white;
+}
+
+.cuerpo3 {
+    padding: 20px;
+    border: 2px solid grey;
+    height: 130px;
+    width: 220px;
+    left: 300px;
+}
+
+.tarjeta3 {
+    padding: 15px;
+    left: auto;
+}
+
+.imagenTood {
+    width: 30px;
+    border-radius: 50%;
+    padding: 2px;
+    border-color: rgb(3, 2, 2);
+    border-style: solid;
+    border-width: 2px;
+}
+
+.imgAccept,
+.imgClose,
+.imgAccept2,
+.imgClose2 {
+    width: 30px;
+    border-radius: 100%;
+    padding: 5px;
+    border-width: 9px;
+}
+
+.imgAccept {
+    left: 20px;
+}
+
+.imgAccept2 {
+    left: 30px;
+}
+
+
+/* targeta numero 4 */
+
+
+.num2{
+    height: 21px;
+    width: 28px;
+    border-radius: 88%;
+    margin-top: 1px;
+    margin-left: 0.5px;
+    margin-right: 2px;
+    order: none;
+    background-color: #CCCCCC;
+    
+
+}
+.encabezado4{
+    background-color: #333333;
+    height: 13px;
+    position: relative;
+    height: 50px;
+    width: 250px;
+    padding: 10px;
+    color: white;
+	
+	
+    
+
+}
+
+.cuerpo4{
+    padding: 20px;
+    border: 2px solid grey;
+    height: 180px;
+    width: 250px;
+    border: 2px solid grey;
+	
+}
+
+.tarjeta4 {
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.encabezado4 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.cuerpo4 {
+    display:flexbox;
+}
+
+.perfil {
+    text-align: center;
+    margin-bottom: 10px;
+    display: inline-flex;
+}
+
+.perfil img {
+    width: 33px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: rgb(3, 2, 2);
+    border-style: solid;
+    border-width: 2px;
+    text-align: right;
+}
+
+.nombre1 {
+    display: contents;
+    font-weight:bolder;
+    margin-top: 3px;
+}
+
+.fotter,.viewMore{
+    background-color: white;
+    border-radius: 2px solid black;
+    height: 13px;
+    position: relative;
+    height: 50px;
+    width: 250px;
+    padding: 10px;
+    color: white;
+    border: 2px solid gray;
+    
+}
+strong{
+
+    height: 25px;
+    width: 30px;
+    border-radius: 88%;
+    margin-top: 2px;
+    margin-left: -40px;
+    margin-right: 6px;
+    order: none;
+    background-color: #CCCCCC;
+    color: black;
+    
+}
+
